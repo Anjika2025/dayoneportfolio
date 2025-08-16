@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+    }
+
+    .split {
+      width: 50%;
+      height: 100vh;
+      padding: 40px;
+      color: white;
+      overflow-y: auto;
+    }
+
+    .left {
+      background-color: #005b96;
+    }
+
+    .right {
+      background-color: #007d8c;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 30px;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .split {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>ANJIKA M J</h1>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="skill.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="split left">
+    <h1>Technical Skills</h1>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C/C++</li>
+      <li>HTML5, CSS3</li>
+      <li>JavaScript</li>
+      <li>Laravel & PHP</li>
+      <li>MySQL, Oracle</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
+
+  <div class="split right">
+    <h1>Soft Skills</h1>
+    <ul>
+      <li>Problem Solving</li>
+      <li>Communication</li>
+      <li>Teamwork</li>
+      <li>Time Management</li>
+      <li>Adaptability</li>
+      <li>Creativity</li>
+    </ul>
+  </div>
+
+</body>
+</html>
+
+</body>
+</html>
